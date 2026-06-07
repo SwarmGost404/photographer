@@ -17,16 +17,16 @@ function PriceBlock() {
                 title="Love Story"
                 linkTo="/price/lovestory"
                 description="Парные фотокрафии"
-                price="0 ₽"
-                oldPrice="8000 ₽"
+                price="0 ₽ + Цена студии"
+                oldPrice="8000 ₽ + Цена студии"
             />
             <Cart 
                 image="/site/27.jpg"
                 title="Fashion solo"
                 linkTo="/price/fasionsolo"
                 description="Только вы в студии"
-                price="0 ₽"
-                oldPrice="8000 ₽"
+                price="0 ₽ + Цена студии"
+                oldPrice="8000 ₽ + Цена студии"
             />
         </div>
     )
