@@ -14,7 +14,7 @@ const PolaroidCard: React.FC<PolaroidCardProps> = ({
   className = '',
 }) => {
   return (
-    <div className={`inline-block bg-white p-3 pb-5 shadow-lg rounded-sm ${className}`}>
+    <div className={` m-auto inline-block  bg-white p-3 pb-5 shadow-lg rounded-sm ${className}`}>
       <img 
         src={imageUrl} 
         alt={alt}
