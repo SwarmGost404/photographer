@@ -7,6 +7,7 @@ import Price from "./view/Price"
 import Street from "./view/Street"
 import FasionSolo from "./view/FasionSolo"
 import LoveStory from "./view/LoveStory"
+import Review from "./view/Review"
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/alboms" element={<Alboms />} />
         <Route path="/price" element={<Price />} />
+        <Route path="/review" element={<Review />} />
         <Route path="/price">
           <Route path="street" element={<Street />} />
           <Route path="fasionsolo" element={<FasionSolo />} />
