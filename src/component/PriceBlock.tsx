@@ -5,7 +5,7 @@ function PriceBlock() {
     return (
         <div className="md:flex grid justify-center m-10 p-5 grid-cols-[repeat(auto-fit,minmax(280px,auto))] gap-5">
             <Cart 
-                image="/site/1.jpg"
+                image="/site/1.webp"
                 title="Стрит"
                 linkTo="/price/street"
                 description="Уличная фотография"
@@ -13,7 +13,7 @@ function PriceBlock() {
                 oldPrice="8000 ₽"
             />
             <Cart 
-                image="/site/33.jpg"
+                image="/site/33.webp"
                 title="Love Story"
                 linkTo="/price/lovestory"
                 description="Парные фотокрафии"
@@ -21,7 +21,7 @@ function PriceBlock() {
                 oldPrice="8000 ₽ + Цена студии"
             />
             <Cart 
-                image="/site/27.jpg"
+                image="/site/27.webp"
                 title="Fashion solo"
                 linkTo="/price/fasionsolo"
                 description="Только вы в студии"

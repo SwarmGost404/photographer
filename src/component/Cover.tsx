@@ -10,7 +10,7 @@ function Cover({imageURL, headerText, paragraphText}: CoverProps ) {
     return (
         <div className="relative h-screen overflow-hidden">
             <img 
-                src={"/site/"+ imageURL +".jpg"}
+                src={"/site/"+ imageURL +".webp"}
                 alt="cover" 
                 className="absolute top-0 left-0 w-full h-full object-cover object-center"
             /> 

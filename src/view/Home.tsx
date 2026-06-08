@@ -7,7 +7,7 @@ function Home() {
         <>
             <div className="relative h-screen overflow-hidden">
                 <img 
-                    src="/site/35.jpg" 
+                    src="/site/35.webp" 
                     alt="cover" 
                     className="absolute top-0 left-0 w-full h-full object-cover object-top"
                 />

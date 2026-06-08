@@ -6,7 +6,7 @@ function Alboms() {
     return (
         <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5 p-5">
             {
-                arr.map(item => <PolaroidCard imageUrl={"/site/" + item + ".jpg"}/>)
+                arr.map(item => <PolaroidCard imageUrl={"/site/" + item + ".webp"}/>)
             }
         </div>
     )

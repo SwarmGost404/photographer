@@ -9,7 +9,7 @@ function About() {
                 <div className="mx-10">
                     <img 
                         className="w-50 h-50 object-cover rounded-full" 
-                        src="/site/20.jpg" 
+                        src="/site/20.webp" 
                         alt="me" 
                     />
                 </div>
